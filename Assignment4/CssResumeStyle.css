@@ -1,0 +1,53 @@
+body {
+  background-color: lightblue;
+  outline-style: solid;
+  outline-width: thick;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  text-align: middle;
+  font-family: "Helvetica", Helvetica, serif;
+  font-style: italic;
+}
+
+.info {
+  background-color: pink;
+  text-align: center;
+}
+
+.tab-content {
+  overflow: hidden;
+  display: none;
+}
+.tab input:checked ~ .tab-content {
+  display: block;
+}
+
+.tab{
+  position: relative;
+}
+
+.tab input {
+  display: none;
+}
+.tab label {
+  display: block;
+  background: lightpink;
+  color: red;
+  font-weight: bold;
+  font-family: "Helvetica", Helvetica, serif;
+  font-style: italic;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tab-content {
+  background-color: azure;
+}
+
+html, body {
+  font-family: helvetica;
+  font-weight: bold;
+}
